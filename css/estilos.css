@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar==========================*/
+nav{
+    display: flex;
+    background-color: #9f261f;
+    flex-direction: column;
+    font-size: large;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+
+nav h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #7e1f1a;
+    background-color: #ffc43d;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+nav h1{
+    font-size: 35px;
+}
+
+nav h3{
+    font-size: 15px;
+    font-weight: 10;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none
+}
+
+ li a{
+    color: white;
+    font-size: 15px ;
+}
+
+li a:hover{
+    color: gray;
+}
+
+/*Cardapio========================*/
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+    background-color: #ffe3a3;
+    color: black;
+    width: 65%;
+    height: 135px;
+    align-self: center;
+    border: 2px solid #ffc43d ;
+    border-radius: 10px;
+}
+
+.cardapio h2{
+    color: #9f261f;
+}
+
+.cardapio h3{
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.cardapio a{
+    display: flex;
+    font-size: 16px ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: #9f261f;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+}
+.cardapio a:hover{
+    color: rgb(100, 3, 3);
+    
+}
+
+/*mais Pedidos===============================*/
+
+.maisPedidos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.tituloMaisPedidos{
+    color: #9f261f;
+    font-size: 35px;
+}
+
+.imagemMaisPedidos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+}
+
+.imagemMaisPedidos article{
+    display: flex;
+    background-color: #fff2d3;
+    height: 330px;
+    width: 280px;
+    border: 2px solid #ffda83;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemMaisPedidos img{
+    height: 300px;
+    width: 250px;
+    
+}
+
+.escolha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #7e1f1a;
+    background-color: #ffc43d;
+    width: 280px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.escolha:hover{
+    color: #450202;
+}
+/*Salgados===============================*/
+
+.pedidosSalgados{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 15%;
+}
+
+.nossoCardapio{
+    color: #9f261f;
+    font-size: 35px;
+}
+
+.nossoCardapioDesc{
+   color: black;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.salgados{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.linha1salgados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha1salgados article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff2d3;
+    border: 2px solid #ffc43d;
+    border-radius: 10px;
+    gap: 20px;
+    height: 125px;
+    width: 280px;
+}
+
+.linha1salgados h3{
+    color: #9f261f;
+    font-size: 16px;
+}
+
+.linha1salgados p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.linha2salgados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha2salgados article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff2d3;
+    border: 2px solid #ffc43d;
+    border-radius: 10px;
+    gap: 20px;
+    height: 125px;
+    width: 280px;
+}
+
+.linha2salgados h3{
+    color: #9f261f;
+    font-size: 16px;
+}
+
+.linha2salgados p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*pizzas Individuais====================*/
+
+.pizzasIndividuais{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 15%;
+}
+
+.pizzasIndividuais h1{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.linhaPizzas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linhaPizzas article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff2d3;
+    border: 2px solid #ffc43d;
+    border-radius: 10px;
+    gap: 20px;
+    height: 125px;
+    width: 280px;
+}
+
+.linhaPizzas h3{
+    color: #9f261f;
+    font-size: 16px;
+}
+
+.linhaPizzas p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*porções e combos==============================*/
+
+.porcoesEcombos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 15%;
+}
+
+.porcoesEcombos h1{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.linhaPorcoesEcombos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linhaPorcoesEcombos article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff2d3;
+    border: 2px solid #ffc43d;
+    border-radius: 10px;
+    gap: 20px;
+    height: 125px;
+    width: 280px;
+}
+
+.linhaPorcoesEcombos h3{
+    color: #9f261f;
+    font-size: 16px;
+}
+
+.linhaPorcoesEcombos p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*bebidas===============================*/
+
+.bebidas{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 15%;
+}
+
+.bebidas h1{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.linhaBebidas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linhaBebidas article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff2d3;
+    border: 2px solid #ffc43d;
+    border-radius: 10px;
+    gap: 20px;
+    height: 125px;
+    width: 210px;
+}
+
+.linhaBebidas h3{
+    color: #9f261f;
+    font-size: 16px;
+}
+
+.linhaBebidas p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nosVisite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #7e1f1a;
+    background-color: #ffc43d;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.nosVisite:hover{
+    color: #330101;
+}
+
+/*endereço, horarios e contato============================*/
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 15%; 
+}
+
+.endereco h1{
+    color: #9f261f;
+    font-size: 35px;
+}
+
+.linhaEndereco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linhaEndereco article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff2d3;
+    border: 2px solid #ffc43d;
+    border-radius: 10px;
+    gap: 20px;
+    height: 125px;
+    width: 280px;
+}
+
+.linhaEndereco h2{
+    color: #9f261f;
+    font-size: 19px;
+}
+
+.linhaEndereco p{
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+/*footer===========================*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #9f261f;
+    flex-direction: column;
+    font-size: large;
+    height: 130px;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+footer a{
+    color: white;
+    font-size: 16px;
+}
+
+footer a:hover{
+    color: gray;
+}
